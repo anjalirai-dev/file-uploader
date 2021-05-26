@@ -1,0 +1,58 @@
+.uploaderFormTitle{
+	text-align:center;
+}
+
+.uploadFolder{
+	padding-left: 40px;
+}
+
+.uploadFolder input[type="text"]{
+    border-radius: 6px;
+    padding: 6px; 
+    width: 200px;
+    height: 15px;
+}
+
+.uploadFile {
+  background:#ffffff;
+  padding: .2em 1.4em;
+  border-radius: .2em;
+}
+
+.uploadBox {
+    border:1px solid #808080;
+    width: 900px;
+    overflow-y: scroll;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.submitForm {
+	background:#4169E1;
+	font-size: 16px;
+    color:#ffffff;
+    margin-top: 20px;
+    top: 50%;
+}
+
+.remove {
+  cursor: pointer;
+  top: 50%;
+  right: 0%;
+}
+
+.uploadedFilesList li{
+    display:grid;
+    grid-template-columns: 3% 2fr 1fr;
+}
+
+span.status {
+    color:#008000;
+    font-weight:900;
+}
+
+.browseFilesButton {
+    background:#c6d6e5ab
+}
